@@ -2,14 +2,14 @@
 
 This repository contains files for:
 
-- `ArcGIS/` - ArcGIS quick reference
-- `Lab/` - lab-06 directions and replication
-- `MODrought/` - small multiples supplement
-- `PS-04` - PS-04 directions
-- `Slides` - lecture slides
-- `LICENSE.md`
-- `README.md`
-- `.gitignore`
+-   `ArcGIS/` - ArcGIS quick reference
+-   `Lab/` - lab-06 directions and replication
+-   `MODrought/` - small multiples supplement
+-   `PS-04` - PS-04 directions
+-   `Slides` - lecture slides
+-   `LICENSE.md`
+-   `README.md`
+-   `.gitignore`
 
 ## About SOC 4650/5650: Introduction to Geographic Information Science
 

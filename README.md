@@ -1,4 +1,4 @@
-# `week-05`
+# `week-06`
 
 This repository contains files for:
 
@@ -6,6 +6,7 @@ This repository contains files for:
 -   `Lab/` - lab-06 directions and replication
 -   `MODrought/` - small multiples supplement
 -   `PS-04` - PS-04 directions
+-   `sampleWireFrame` - sample wire frame image
 -   `Slides` - lecture slides
 -   `LICENSE.md`
 -   `README.md`

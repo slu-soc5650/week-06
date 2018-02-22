@@ -1,19 +1,14 @@
 lecture-06 <img src="https://slu-soc5650.github.io/images/logo.png" align="right" />
 ===========================================================
-[![](https://img.shields.io/badge/semester-spring%202017-orange.svg)](https://github.com/slu-soc5650/lecture-06)
-[![](https://img.shields.io/badge/release-updated-brightgreen.svg)](https://github.com/slu-soc5650/lecture-06)
+[![](https://img.shields.io/badge/semester-spring%202018-orange.svg)](https://github.com/slu-soc5650/lecture-06)
+[![](https://img.shields.io/badge/release-LP%20only-red.svg)](https://github.com/slu-soc5650/lecture-06)
 [![](https://img.shields.io/github/release/slu-soc5650/lecture-06.svg?label=version)](https://github.com/slu-soc5650/lecture-06/releases)
 [![](https://img.shields.io/github/last-commit/slu-soc5650/lecture-06.svg)](https://github.com/slu-soc5650/lecture-06/commits/master)
 [![](https://img.shields.io/github/repo-size/slu-soc5650/lecture-06.svg)](https://github.com/slu-soc5650/lecture-06)
 
 This repository contains files for:
 
--   `ArcGIS/` - ArcGIS quick reference
--   `Lab/` - lab-06 directions and replication
--   `MODrought/` - small multiples supplement
--   `PS-04` - PS-04 directions
--   `sampleWireFrame` - sample wire frame image
--   `Slides` - lecture slides
+-   `LP-06/` - lecture prep 06 instructions.
 -   `LICENSE.md`
 -   `README.md`
 -   `.gitignore`

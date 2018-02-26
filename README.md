@@ -10,9 +10,10 @@ This repository contains files for:
 
 -   `ArcMap/` - ArcMap handout for lecture
 -   `Functions/` - `R` functions for lecture
+-   `Lab-05/` - lab-05 instructions
 -   `LP-06/` - lecture prep 06 instructions.
 -   `MapHandouts/` - all maps that were given out in class
--   `Wireframe/` - example wireframe 
+-   `Wireframe/` - example wireframe
 -   `LICENSE.md`
 -   `README.md`
 -   `.gitignore`

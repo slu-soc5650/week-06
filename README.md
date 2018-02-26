@@ -12,6 +12,7 @@ This repository contains files for:
 -   `Functions/` - `R` functions for lecture
 -   `LP-06/` - lecture prep 06 instructions.
 -   `MapHandouts/` - all maps that were given out in class
+-   `Wireframe/` - example wireframe 
 -   `LICENSE.md`
 -   `README.md`
 -   `.gitignore`

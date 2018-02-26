@@ -1,3 +1,7 @@
+# lecture-06 v18.2.0
+
+* Add all handouts, lecture slides, and lab-05
+
 # lecture-06 v18.1.0
 
 * Add `NEWS.md`

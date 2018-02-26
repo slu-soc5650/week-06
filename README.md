@@ -8,6 +8,7 @@ lecture-06 <img src="https://slu-soc5650.github.io/images/logo.png" align="right
 
 This repository contains files for:
 
+-   `ArcMap/` - ArcMap handout for lecture
 -   `LP-06/` - lecture prep 06 instructions.
 -   `MapHandouts/` - all maps that were given out in class
 -   `LICENSE.md`

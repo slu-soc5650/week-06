@@ -13,6 +13,7 @@ This repository contains files for:
 -   `Lab-05/` - lab-05 instructions
 -   `LP-06/` - lecture prep 06 instructions.
 -   `MapHandouts/` - all maps that were given out in class
+-   `PS-04/` - problem set 04 instructions
 -   `Slides/` - lecture slides
 -   `Wireframe/` - example wireframe
 -   `LICENSE.md`

@@ -1,3 +1,7 @@
+# lecture-06 v18.3.0
+
+* Add PS-04 instructions
+
 # lecture-06 v18.2.0
 
 * Add all handouts, lecture slides, and lab-05

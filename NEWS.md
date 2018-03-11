@@ -1,3 +1,7 @@
+# lecture-06 v18.4.0
+
+* Add Lab-05 replication files
+
 # lecture-06 v18.3.0
 
 * Add PS-04 instructions

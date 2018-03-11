@@ -1,0 +1,60 @@
+---
+title: "Lab 05 Replication Notebook"
+author: "Christopher Prener, Ph.D."
+date: '(`r format(Sys.time(), "%B %d, %Y")`)'
+output: 
+  github_document: default
+  html_notebook: default 
+---
+
+## Introduction
+This is the replication notebook for Lab-05 from the course SOC 4650/5650: Introduction to GISc. 
+
+## Load Dependencies
+The following code loads the package dependencies for our analysis:
+
+```{r package-load}
+# tidyverse
+library(ggplot2) # data plotting
+
+# other packages
+library(ggthemes) # map theme
+library(here) # working directory tools
+library(sf) # spatial data tools
+library(viridis) # color palettes
+```
+
+## Load Data
+The following code loads the data package and assigns our data to a data frame in our global environment:
+
+```{r data-load}
+housing <- st_read(here("data","STL_HOUSING_MedianAge", "Shapefile", "STL_HOUSING_MedianAge.shp"), 
+                      stringsAsFactors = FALSE)
+```
+
+## Create Median Home Age Map in `R`
+### Question 6
+The code block below maps the data and adds a labeled legend, an appropriate theme, a title, and other map layout labels:
+
+```{r build-map}
+ggplot() +
+  geom_sf(data = housing, mapping = aes(fill = ESTIMATE), color = NA) +
+  scale_fill_viridis(name = "Median Age", option = "inferno") +
+  theme_map(base_size = 14) +
+  theme(legend.position = "right") +
+  labs(
+    title = "Median Age of Homes in \nSt. Louis, MO",    
+    subtitle = "Christopher Prener, Ph.D.",
+    caption = "Data via the U.S. Census Bureau"
+  )
+```
+
+The map shows that the median age of homes in most neighborhoods is around 1940, with some post-war development in the southwest and far northern reaches of the city. The near north side and midtown area have far more recent residential development.
+
+### Question 7
+The following code exports our map to the `results/` folder:
+
+```{r export-map}
+ggsave(here("results", "medianAge.png"), dpi = 300)
+```
+

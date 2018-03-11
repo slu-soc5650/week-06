@@ -1,0 +1,1 @@
+The weather data are from the National Weather Service's [Storm Prediction Center](http://www.spc.noaa.gov/gis/svrgis/). They were provided through the course data release. The additional data on median age of homes was obtained from Chris's [openGIS project](https://github.com/slu-openGIS/).
